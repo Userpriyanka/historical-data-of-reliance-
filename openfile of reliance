@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+import datetime as dt
+import matplotlib.pyplot as plt
+reliance_raw=pandas.read_csv("C:\Users\samue\Downloads\RELIANCE.csv")
+## print shape of dataset with rows and columns and information 
+print ("The shape of the  data is (row, column):"+ str(reliance_raw.shape))
+print (reliance_raw.info())
+reliance_raw.describe()
