@@ -1,4 +1,4 @@
 cols_plot = ['Open SMA(10)', 'High SMA(10)', 'Low SMA(10)','Close SMA(10)', 'Adj Close SMA(10), 'Volume SMA(10)']
 axes = reliance_analysis[cols_plot].plot(marker='.', alpha=0.5, linestyle='None', figsize=(11, 9), subplots=True)
 for ax in axes:
-    ax.set_ylabel('Daily trade')
+    ax.set_ylabel('1 year trade')
