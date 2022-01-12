@@ -1,0 +1,34 @@
+#Size and style of the plot
+plt.figure(figsize = (15, 7))
+plt.style.use('seaborn-white')
+
+#Subplots of distplot
+plt.subplot(231)
+sns.distplot(reliance_analysis['Open SMA(10)'])
+fig = plt.gcf()
+fig.set_size_inches(10,10)
+
+plt.subplot(232)
+sns.distplot(reliance_analysis['High SMA(10)'])
+fig = plt.gcf()
+fig.set_size_inches(10,10)
+
+plt.subplot(233)
+sns.distplot(reliance_analysis['Low SMA(10)'])
+fig = plt.gcf()
+fig.set_size_inches(10,10)
+
+plt.subplot(234)
+sns.distplot(reliance_analysis['Close SMA(10)'])
+fig = plt.gcf()
+fig.set_size_inches(10,10)
+
+plt.subplot(235)
+sns.distplot(reliance_analysis['Adj Close SMA(10)'])
+fig = plt.gcf()
+fig.set_size_inches(10,10)
+
+plt.subplot(236)
+sns.distplot(reliance_analysis['Volume SMA(10)'])
+fig = plt.gcf()
+fig.set_size_inches(10,10)
